@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "315462385559",
+    "firebase_url": "https://myfbrealtime.firebaseio.com",
+    "project_id": "myfbrealtime",
+    "storage_bucket": "myfbrealtime.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315462385559:android:c9eacc92703b932844ced2",
+        "android_client_info": {
+          "package_name": "com.example.myfbrealtime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315462385559-0shn91kkio0llhn8fdnq87gihgdmtouf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myfbrealtime",
+            "certificate_hash": "d5c24c27e868c72c0d0dc96bbb284bceae9b4d6c"
+          }
+        },
+        {
+          "client_id": "315462385559-jpbbb1qes6bef6prekqj7pfv9rs2kpem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGgJIgX8xU2v5-u5mlkc--lMP-pkry7BU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "315462385559-jpbbb1qes6bef6prekqj7pfv9rs2kpem.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
