@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -50,6 +51,21 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
                 Log.e(TAG, "onCancelled: ->  " + databaseError.getMessage());
+            }
+        });
+
+        mButtonSunny.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mConditionRef.setValue("Sunny");
+            }
+        });
+
+        mButtonFoggy.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                mConditionRef.setValue("Foggy");
             }
         });
 
